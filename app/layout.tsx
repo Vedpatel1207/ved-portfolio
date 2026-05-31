@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const url = "https://vedpatel.dev";
+const url = "https://vedportfolio12.vercel.app";
 const title = "Ved Patel — Azure Data Engineer";
 const description =
   "Azure Data Engineer building production data platforms on Microsoft Fabric, ADF, PySpark, and Power BI. Microsoft-certified, Codeforces Specialist, HackOn Top 50 / 28K.";
