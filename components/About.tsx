@@ -43,12 +43,7 @@ export default function About() {
             ))}
           </div>
 
-          <div className="!mt-6 grid grid-cols-2 gap-y-2 text-sm font-mono">
-            <p>📧 vedpatel41207@gmail.com</p>
-            <p>📞 +91-9173041207</p>
-            <p>📍 Noida, India</p>
-            <p>🎓 Nirma University</p>
-          </div>
+          <div className="!mt-6 flex flex-wrap gap-2" />
         </div>
         <div className="card">
           <h3 className="text-white font-semibold mb-3">Currently working with</h3>

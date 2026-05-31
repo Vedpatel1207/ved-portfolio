@@ -38,7 +38,7 @@ export default function Contact() {
           GitHub
         </a>
         <a
-          href="https://www.linkedin.com/in/patel-ved-753413229/"
+          href="https://www.linkedin.com/in/ved-patel-753413229/"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-outline"
