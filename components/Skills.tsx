@@ -9,18 +9,29 @@ const groups = [
       "Microsoft Fabric",
       "Azure Data Factory",
       "Azure Synapse Analytics",
-      "Azure SQL",
+      "Azure Functions",
+      "Azure Logic Apps",
+      "Azure OpenAI",
+      "Application Insights",
+      "Microsoft Entra ID",
       "Azure Key Vault",
       "Azure DevOps",
     ],
   },
   {
     title: "Frameworks & Libraries",
-    items: ["Apache Spark", "Delta Lake", "Pandas", "NumPy"],
+    items: [
+      "Apache Spark",
+      "Delta Lake",
+      "Microsoft Agent Framework",
+      "Azure AI Search",
+      "Pandas",
+      "NumPy",
+    ],
   },
   {
     title: "Tools",
-    items: ["Power BI", "Tabular Editor", "Git", "VS Code", "Jupyter"],
+    items: ["Power BI", "Power Automate", "Copilot Studio", "Tabular Editor", "Git"],
   },
 ];
 

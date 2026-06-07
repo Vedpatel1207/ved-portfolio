@@ -19,13 +19,14 @@ export default function Hero() {
             <span className="text-white">Patel.</span>
           </h1>
           <h2 className="mt-6 text-2xl md:text-3xl font-semibold text-muted tracking-tight">
-            Azure Data Engineer
+            Azure Data &amp; AI Engineer
           </h2>
           <p className="mt-6 max-w-xl text-muted leading-relaxed text-base md:text-lg">
             Building production-grade data platforms on Microsoft Fabric,
             Azure Data Factory, and PySpark — designing medallion Lakehouse
             architectures, performant pipelines, and star-schema Power BI
-            semantic models that serve 1000+ users.
+            semantic models, plus production data agents on the Microsoft
+            Agent Framework with Azure OpenAI.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">

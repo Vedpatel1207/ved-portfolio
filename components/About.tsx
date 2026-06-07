@@ -9,7 +9,7 @@ export default function About() {
       <div className="grid md:grid-cols-3 gap-10">
         <div className="md:col-span-2 space-y-4 text-muted leading-relaxed">
           <p>
-            I'm a <span className="text-white">Data Engineer</span> at{" "}
+            I'm a <span className="text-white">Data &amp; AI Engineer</span> at{" "}
             <span className="text-accent">MAQ Software</span> with 1.5+ years of experience
             designing and operating production data platforms on{" "}
             <span className="text-white">Microsoft Fabric, Azure Data Factory, and Azure Synapse</span>.
@@ -18,7 +18,8 @@ export default function About() {
             I love turning messy multi-source data into clean, governed,
             analytics-ready Lakehouse layers — using PySpark and Spark SQL transformations,
             star-schema semantic models, and CI/CD with Azure DevOps backed by Key Vault and
-            Managed Identity.
+            Managed Identity. Lately I've been building production data agents on the
+            Microsoft Agent Framework with Azure OpenAI over Power BI semantic models.
           </p>
           <p>
             Outside of work I solve algorithm problems competitively — Specialist on Codeforces,
@@ -28,7 +29,7 @@ export default function About() {
           {/* Stat row */}
           <div className="!mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { v: "2", l: "MS Certifications" },
+              { v: "3", l: "MS Certifications" },
               { v: "1000+", l: "DSA Problems" },
               { v: "4★", l: "CodeChef" },
               { v: "1581", l: "Codeforces" },

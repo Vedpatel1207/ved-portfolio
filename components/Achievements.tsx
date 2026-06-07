@@ -12,6 +12,11 @@ const items = [
     href: "https://learn.microsoft.com/api/credentials/share/en-us/PatelVedkumarHemantbhaiMAQSoftware-6544/53AAE269626DBFBD?sharingId=F2B002F21F6A70C8",
   },
   {
+    icon: "🏅",
+    title: "Microsoft Certified: SQL AI Developer Associate",
+    desc: "Microsoft credential validating AI-powered application development on Azure SQL.",
+  },
+  {
     icon: "🚀",
     title: "Amazon HackOn Semi-Finalist",
     desc: "Qualified for semi-final round in Amazon HackOn Round 3 with All India Rank Top 50 out of 28,000+ teams.",

@@ -13,16 +13,17 @@ type Job = {
 const jobs: Job[] = [
   {
     company: "MAQ Software",
-    role: "Software Engineer 1",
+    role: "Data & AI Engineer 1",
     period: "Jul 2025 — Present",
     location: "Noida, India",
     bullets: [
       "Architected end-to-end Bronze/Silver/Gold medallion architecture on Microsoft Fabric OneLake (Delta/Parquet) with reusable PySpark transformations, schema enforcement, and data quality checks, improving downstream query latency by ~35%.",
       "Built incremental ingestion pipelines using Azure Data Factory and Fabric Pipelines, orchestrating PySpark and Spark SQL notebooks for joins, cleaning, and enrichment across multi-source datasets.",
       "Designed star-schema Power BI semantic models with fact and conformed dimension tables, optimized DAX measures, and RLS over Lakehouse data, improving report responsiveness by ~25% for 1000+ business users.",
-      "Implemented CI/CD with Azure DevOps YAML pipelines and Fabric Deployment Pipelines across Dev/UAT/Prod, integrating Azure Key Vault–backed secrets and Managed Identity authentication.",
-      "Optimized PySpark and Spark SQL workloads through partitioning, broadcast joins, and V-Order on Delta tables, reducing job runtime by ~20–30%.",
-      "Developed Fabric Data Agents over 10+ curated datasets and built a Question–DAX golden-dataset evaluation framework, raising answer accuracy from ~60% to ~85%.",
+      "Implemented CI/CD with Azure DevOps YAML pipelines and Fabric Deployment Pipelines across Dev/UAT/Prod, integrating Azure Key Vault–backed secrets and Managed Identity authentication for governed, secure releases.",
+      "Optimized PySpark and Spark SQL workloads through partitioning, broadcast joins, and V-Order on Delta tables, reducing job runtime by ~20–30% on large datasets.",
+      "Built a production Data agent on the Microsoft Agent Framework with tool-orchestrated metadata retrieval, few-shot grounding, syntax validation, and DAX execution via an Azure Logic App over Power BI semantic models, raising answer accuracy from ~70% to ~93% through iterative error analysis.",
+      "Deployed and secured the Azure Function App with Entra ID App Registration, surfaced it via a Power Automate custom connector integrated into Copilot Studio and Microsoft Teams, and instrumented Application Insights for question, response, generated DAX, retry counts, and end-to-end and per-tool latency.",
     ],
   },
   {
